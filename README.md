@@ -1,60 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-</head>
-<body>
- <h1>Visualizing the Titanic Dataset Using Tableau</h1>
+# Visualizing the Titanic Dataset Using Tableau
 
-    <h2>Overview</h2>
-    <p>This project focuses on visualizing the Titanic dataset using Tableau to analyze various aspects of the passengers aboard the Titanic. The dataset includes information about the passengers, such as their <strong>age</strong>, <strong>sex</strong>, <strong>embarkation port</strong>, <strong>passenger class</strong>, <strong>ticket fare</strong>, and whether they <strong>survived</strong> the disaster. The goal of this visualization is to provide insights into the factors that influenced survival rates on the Titanic.</p>
+## Overview
+This project focuses on visualizing the Titanic dataset using Tableau to analyze various aspects of the passengers aboard the Titanic. The dataset includes information about the passengers, such as their **age**, **sex**, **embarkation port**, **passenger class**, **ticket fare**, and whether they **survived** the disaster. The goal of this visualization is to provide insights into the factors that influenced survival rates on the Titanic.
 
-    <h2>Data Source</h2>
-    <p>The data used in this project is publicly available and can be downloaded from the following source:</p>
-    <ul>
-        <li><a href="https://www.kaggle.com/c/titanic/data" target="_blank">Kaggle Titanic Dataset</a></li>
-    </ul>
-    <p>The dataset contains the following columns:</p>
-    <ul>
-        <li><strong>PassengerId</strong>: Unique identifier for each passenger</li>
-        <li><strong>Pclass</strong>: Passenger class (1st, 2nd, or 3rd)</li>
-        <li><strong>Name</strong>: Name of the passenger</li>
-        <li><strong>Sex</strong>: Gender of the passenger (male or female)</li>
-        <li><strong>Age</strong>: Age of the passenger</li>
-        <li><strong>SibSp</strong>: Number of siblings/spouses aboard the Titanic</li>
-        <li><strong>Parch</strong>: Number of parents/children aboard the Titanic</li>
-        <li><strong>Ticket</strong>: Ticket number</li>
-        <li><strong>Fare</strong>: Passenger ticket price</li>
-        <li><strong>Cabin</strong>: Cabin number</li>
-        <li><strong>Embarked</strong>: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)</li>
-        <li><strong>Survived</strong>: Survival status (0 = No, 1 = Yes)</li>
-    </ul>
-     <h1>Visualizing the Titanic Dataset Using Tableau</h1>
+## Data Source
+The data used in this project is publicly available and can be downloaded from the following source:
+- [Kaggle Titanic Dataset](/kaggle/input/titanic/train.csv)
 
-    <h2>Overview</h2>
-    <p>This project focuses on visualizing the Titanic dataset using Tableau to analyze various aspects of the passengers aboard the Titanic. The dataset includes information about the passengers, such as their <strong>age</strong>, <strong>sex</strong>, <strong>embarkation port</strong>, <strong>passenger class</strong>, <strong>ticket fare</strong>, and whether they <strong>survived</strong> the disaster. The goal of this visualization is to provide insights into the factors that influenced survival rates on the Titanic.</p>
+The dataset contains the following columns:
+- **PassengerId**: Unique identifier for each passenger
+- **Pclass**: Passenger class (1st, 2nd, or 3rd)
+- **Name**: Name of the passenger
+- **Sex**: Gender of the passenger (male or female)
+- **Age**: Age of the passenger
+- **SibSp**: Number of siblings/spouses aboard the Titanic
+- **Parch**: Number of parents/children aboard the Titanic
+- **Ticket**: Ticket number
+- **Fare**: Passenger ticket price
+- **Cabin**: Cabin number
+- **Embarked**: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
+- **Survived**: Survival status (0 = No, 1 = Yes)
 
-    <h2>Data Source</h2>
-    <p>The data used in this project is publicly available and can be downloaded from the following source:</p>
-    <ul>
-        <li><a href="/kaggle/input/titanic/train.csv" target="_blank">Kaggle Titanic Dataset</a></li>
-    </ul>
-    <p>The dataset contains the following columns:</p>
-    <ul>
-        <li><strong>PassengerId</strong>: Unique identifier for each passenger</li>
-        <li><strong>Pclass</strong>: Passenger class (1st, 2nd, or 3rd)</li>
-        <li><strong>Name</strong>: Name of the passenger</li>
-        <li><strong>Sex</strong>: Gender of the passenger (male or female)</li>
-        <li><strong>Age</strong>: Age of the passenger</li>
-        <li><strong>SibSp</strong>: Number of siblings/spouses aboard the Titanic</li>
-        <li><strong>Parch</strong>: Number of parents/children aboard the Titanic</li>
-        <li><strong>Ticket</strong>: Ticket number</li>
-        <li><strong>Fare</strong>: Passenger ticket price</li>
-        <li><strong>Cabin</strong>: Cabin number</li>
-        <li><strong>Embarked</strong>: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)</li>
-        <li><strong>Survived</strong>: Survival status (0 = No, 1 = Yes)</li>
-    </ul>
-    </body>
-</html>
+## Project Structure
+The Tableau workbook contains the following sheets and dashboards:
+1. **Train Count Across Age Bins**: A visualization showing the count of passengers across different age bins.
+2. **Survival Analysis by Passenger ID**: A detailed analysis of survival status by passenger identifier (PassengerId).
+3. **Passenger Travel Class Allocation**: A breakdown of passengers according to their travel class (1st, 2nd, and 3rd).
+4. **Comparing Ticket Prices Between Male and Female Passengers**: A comparison of ticket prices between male and female passengers.
+5. **Survival Analysis by Boarding Port**: An analysis of survival rates based on the boarding port (Cherbourg, Queenstown, Southampton).
+
+## Insights
+This analysis aims to explore the following:
+- The relationship between **passenger class** and survival rates.
+- The survival patterns based on **gender** and **age**.
+- How **embarkation port** influenced the chances of survival.
+- The impact of **ticket price** on survival.
+
+
