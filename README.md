@@ -5,7 +5,7 @@ This project focuses on visualizing the Titanic dataset using Tableau to analyze
 
 ## Data Source
 The data used in this project is publicly available and can be downloaded from the following source:
-- [Kaggle Titanic Dataset](/kaggle/input/titanic/train.csv)
+- [Kaggle Titanic Dataset](/kaggle/input/titanic)
 
 The dataset contains the following columns:
 - **PassengerId**: Unique identifier for each passenger
