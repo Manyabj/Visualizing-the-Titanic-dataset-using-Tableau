@@ -37,4 +37,4 @@ This analysis aims to explore the following:
 - The impact of **ticket price** on survival.
 
 ## Acknowledgment
-Gratitude to [Dr Agughasi Victor Ikechukwu](Victor-Ikechukwu) for their invaluable guidance and support in helping me navigate Tableau. 
+Gratitude to [Dr Agughasi Victor Ikechukwu](Victor-Ikechukwu) for  invaluable guidance and support in helping me navigate Tableau. 
